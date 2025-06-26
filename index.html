@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Todo List</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <span>To-do-List</span>
+    </div>
+    <button class="cta-btn">Feel Organised</button>
+  </header>
+
+  <!-- Intro Section -->
+  <main id="top">
+    <section class="text-section">
+      <h1>Organize your goals. Simplify your workflow. Empower your future.</h1>
+      <p>
+        Stop juggling scattered tools and start feeling organized. <strong>Todo List</strong> brings calm and clarity to your day.
+      </p>
+      <button class="cta-btn">Feel Organised</button>
+    </section>
+
+    <section class="image-section">
+      <img src="https://res.cloudinary.com/imagist/image/fetch/q_auto,f_auto,c_scale,w_2240/https%3A%2F%2Fwww.todoist.com%2Fstatic%2Fhome-teams%2Fintro%2Fwide%2Fheaderui.en.png" alt="To-Do Preview" />
+    </section>
+  </main>
+
+  <!-- To-Do Section -->
+  <section class="todo-wrapper">
+    <div class="container">
+      <h2>📝 Your Tasks</h2>
+      <form id="task-form">
+        <input type="text" id="task-input" placeholder="Enter a new task" required />
+        <button type="submit">Add Task</button>
+      </form>
+      <ul id="task-list"></ul>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+     <a id="GoToTop" href="#top" class="back-to-top">↑ Go to Top</a>
+    <p>Created by <strong>Prashant Kalpure</strong></p>
+    <div class="footer-links">
+      <a target="_blank">📧 Gmail: kalpureprashant499@gmail.com</a>
+      <a href="">linkedin </a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
